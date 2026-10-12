@@ -1,9 +1,15 @@
 # preregister
 
-A [Claude Code](https://claude.com/claude-code) skill that makes the agent
-**interrogate the researcher and freeze a preregistration before a new
-experiment**, then hold the analysis and the report to what was written —
-packaged inside a minimal example research repo that shows where it fits.
+-- Preregistering your hypothesis --
+
+This skill aims to solve two problems:
+
+**Problem 1: Tacit Knowledge**: Researchers and engineers have a lot of tacit knowledge that is not available to your agent. This makes them make mistakes.
+
+**Problem 2: Insufficient thinking:** When coding up experiments has become this cheap we need to think harder about what experiments are worth our time.
+
+This skill de-risks the above problems by having the agent **interrogate the you and freeze a preregistration before a new
+experiment**, then hold the analysis and the report to what was written.
 
 Flow: **preregister → hypothesis → test → analyze → report with conclusion**.
 
