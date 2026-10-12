@@ -1,0 +1,16 @@
+[project]
+name = "preregister-example"
+version = "0.1.0"
+description = "Example research repo showing the /preregister Claude Code skill in a uv project"
+requires-python = ">=3.12"
+dependencies = ["numpy"]
+
+[dependency-groups]
+dev = ["matplotlib", "pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["primitives"]
